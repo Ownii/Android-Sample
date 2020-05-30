@@ -6,6 +6,8 @@ private object Versions {
 	val appcompat = "1.1.0"
 	val constraintlayout = "1.1.3"
 
+	val dagger = "2.28"
+
 	object Testing {
 		val junit = "4.13"
 		val mockito = "3.3.3"
@@ -24,6 +26,9 @@ object Dependencies {
 	val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
 	val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
 	val constraintlayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
+
+	val dagger = "com.google.dagger:dagger:${Versions.dagger}"
+	val daggerCompiler = "com.google.dagger:dagger-compiler:${Versions.dagger}"
 
 	object Testing {
 

@@ -1,0 +1,1 @@
+/Users/martin.foerster/Documents/Privat/Projekte/Sample/model/build/classes/kotlin/main/de/brickmakers/sample/model/AppConfig.class
