@@ -5,6 +5,7 @@ private object Versions {
 	val coreKtx = "1.3.0"
 	val appcompat = "1.1.0"
 	val constraintlayout = "1.1.3"
+	val retrofit = "2.9.0"
 
 	val dagger = "2.28"
 
@@ -26,6 +27,8 @@ object Dependencies {
 	val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
 	val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
 	val constraintlayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
+	val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
+	val retrofitMoshi = "com.squareup.retrofit2:converter-moshi:${Versions.retrofit}"
 
 	val dagger = "com.google.dagger:dagger:${Versions.dagger}"
 	val daggerCompiler = "com.google.dagger:dagger-compiler:${Versions.dagger}"

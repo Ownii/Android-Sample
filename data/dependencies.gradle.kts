@@ -10,7 +10,9 @@ dependencies {
 	with(Dependencies) {
 		listOf(
 			kotlin,
-			dagger
+			dagger,
+			retrofit,
+			retrofitMoshi
 		)
 	}.forEach { implementation(it) }
 
