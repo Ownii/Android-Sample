@@ -22,5 +22,4 @@ import de.brickmakers.sample.domain.di.DomainLayer
 )
 @AppScope
 interface AppComponent {
-
 }

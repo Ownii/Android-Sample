@@ -11,7 +11,9 @@ dependencies {
 	with(Dependencies) {
 		listOf(
 			kotlin,
-			dagger
+			dagger,
+			rxJava,
+			rxAndroid
 		)
 	}.forEach { implementation(it) }
 

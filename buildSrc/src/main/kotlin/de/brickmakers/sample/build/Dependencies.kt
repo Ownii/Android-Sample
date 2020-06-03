@@ -6,6 +6,8 @@ private object Versions {
 	val appcompat = "1.1.0"
 	val constraintlayout = "1.1.3"
 	val retrofit = "2.9.0"
+	val rxJava = "3.0.4"
+	val rxAndroid = "3.0.0"
 
 	val dagger = "2.28"
 
@@ -29,6 +31,9 @@ object Dependencies {
 	val constraintlayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
 	val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
 	val retrofitMoshi = "com.squareup.retrofit2:converter-moshi:${Versions.retrofit}"
+	val rxJava = "io.reactivex.rxjava3:rxjava:${Versions.rxJava}"
+	val rxAndroid = "io.reactivex.rxjava3:rxandroid:${Versions.rxAndroid}"
+	val retrofitRxJava = "com.squareup.retrofit2:adapter-rxjava:${Versions.retrofit}"
 
 	val dagger = "com.google.dagger:dagger:${Versions.dagger}"
 	val daggerCompiler = "com.google.dagger:dagger-compiler:${Versions.dagger}"

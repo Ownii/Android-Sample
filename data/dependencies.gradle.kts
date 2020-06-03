@@ -12,7 +12,9 @@ dependencies {
 			kotlin,
 			dagger,
 			retrofit,
-			retrofitMoshi
+			retrofitMoshi,
+			rxJava,
+			retrofitRxJava
 		)
 	}.forEach { implementation(it) }
 

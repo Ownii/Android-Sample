@@ -1,3 +1,5 @@
+import de.brickmakers.sample.build.AndroidApp
+
 plugins {
 	id("com.android.application")
 	id("kotlin-android")
@@ -6,15 +8,15 @@ plugins {
 }
 
 android {
-	compileSdkVersion(de.brickmakers.sample.build.AndroidApp.compileVersion)
-	buildToolsVersion = de.brickmakers.sample.build.AndroidApp.buildTools
+	compileSdkVersion(AndroidApp.compileVersion)
+	buildToolsVersion = AndroidApp.buildTools
 
 	defaultConfig {
-		applicationId = de.brickmakers.sample.build.AndroidApp.applicationId
-		minSdkVersion(de.brickmakers.sample.build.AndroidApp.minSdk)
-		targetSdkVersion(de.brickmakers.sample.build.AndroidApp.targetSdk)
-		versionCode = de.brickmakers.sample.build.AndroidApp.versionCode
-		versionName = de.brickmakers.sample.build.AndroidApp.versionName
+		applicationId = AndroidApp.applicationId
+		minSdkVersion(AndroidApp.minSdk)
+		targetSdkVersion(AndroidApp.targetSdk)
+		versionCode = AndroidApp.versionCode
+		versionName = AndroidApp.versionName
 
 		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 	}
@@ -30,6 +32,11 @@ android {
 	}
 	lintOptions {
 		disable("AllowBackup", "GoogleAppIndexingWarning", "MissingApplicationIcon")
+	}
+
+	compileOptions {
+		sourceCompatibility = JavaVersion.VERSION_1_8
+		targetCompatibility = JavaVersion.VERSION_1_8
 	}
 }
 

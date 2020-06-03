@@ -11,7 +11,8 @@ import de.brickmakers.sample.model.AppConfig
 @Component(
 	modules = [
 		BindModule::class,
-		ProvideModule::class
+		ProvideModule::class,
+		SchedulersModule::class
 	],
 	dependencies = [
 		DataComponent::class
@@ -27,6 +28,8 @@ interface DomainComponent : DomainLayer {
 		fun with(appConfig: AppConfig): Builder
 
 		fun with(dataComponent: DataComponent): Builder
+
+		fun with(schedulers: SchedulersModule): Builder
 
 		fun build(): DomainComponent
 	}

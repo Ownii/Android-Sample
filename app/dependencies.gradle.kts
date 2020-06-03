@@ -16,7 +16,8 @@ dependencies {
 			coreKtx,
 			appcompat,
 			constraintlayout,
-			dagger
+			dagger,
+			rxAndroid
 		)
 	}.forEach { implementation(it) }
 
